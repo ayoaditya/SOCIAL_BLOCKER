@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SOCIAL_BLOCKER",
+  "version": "0.0.2",
+  "icons": {
+    "128": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["main.js"]
+    }
+  ]
+}
